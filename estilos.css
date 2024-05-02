@@ -22,6 +22,8 @@
     background-color: antiquewhite;
     position: relative;
     margin: 18px;
+    font-size: 28px;
+    padding-bottom: 106px;
 }
 
 
@@ -32,7 +34,7 @@
     width: 250px;
     position: absolute;
     right: 0;
-    top: 15%;
+    top: 12%;
     margin: 1%;
     
     
@@ -52,7 +54,7 @@
 .barraLateral:first-child{
     background-color: rgb(98, 104, 104);
     width: 250px;
-    height: 250px;
+    height: 200px;
     box-sizing: border-box;
     right: 0;
     top: 0;
@@ -63,7 +65,7 @@
 flex-flow: column;
 background-color: brown;
 width: 250px;
-height: 250px;
+height: 200px;
 box-sizing: border-box;
 position: relative;
 right: 0;
@@ -73,7 +75,7 @@ top: 0;
 .barraLateral:last-child{
     background-color: beige;
     width: 250px;
-    height: 250px;
+    height: 200px;
     box-sizing: border-box;
     position: relative;
 
@@ -88,7 +90,11 @@ h5{
     color: white;
     font-size:20px
 }
-
+body{
+    position: relative;
+    min-height: 100vh;
+    
+}
 footer {
     position: absolute;
     background: rgb(252, 65, 65) ;
@@ -102,4 +108,6 @@ footer {
     box-sizing: border-box;
     border-right: #acacac;
     border-left: #acacac;
+    bottom: 0;
+    
 }
