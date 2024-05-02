@@ -27,7 +27,32 @@ img{
     z-index: 1;
 }
 
+.imgBoton{
+    width: 250px;
+    height: 240px;
+    margin: 0;
+}
+span{
+    margin: 0 auto;
+    text-align: center;
+    float: center;
+    font-size: 27px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a:link{
+    color:red
+}
+a:visited{
+    color: blue;
+}
 
+a:hover{
+    color:rgb(118, 30, 118)
+}
+
+a:active{
+    color:green;
+}
 .lateral{
     flex: flex;
     flex-flow: column;
@@ -54,7 +79,7 @@ img{
 }
 
 .barraLateral:first-child{
-    background-color: rgb(98, 104, 104);
+    background-color: white;
     width: 250px;
     height: 270px;
     box-sizing: border-box;
@@ -65,7 +90,7 @@ img{
 
 .barraLateral:nth-child(2){
 flex-flow: column;
-background-color: brown;
+background-color: white;
 width: 250px;
 height: 270px;
 box-sizing: border-box;
