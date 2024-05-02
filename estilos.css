@@ -24,6 +24,7 @@
     margin: 18px;
     font-size: 28px;
     padding-bottom: 106px;
+    z-index: 1;
 }
 
 
@@ -109,5 +110,6 @@ footer {
     border-right: #acacac;
     border-left: #acacac;
     bottom: 0;
+    z-index: 2;
     
 }
