@@ -17,6 +17,13 @@
     display: flex;
     margin-left: 100px;
 }
+.texto{
+    width: 1700px;
+    background-color: antiquewhite;
+    position: relative;
+    margin: 18px;
+}
+
 
 .lateral{
     flex: flex;
@@ -25,7 +32,8 @@
     width: 250px;
     position: absolute;
     right: 0;
-    top: 0;
+    top: 15%;
+    margin: 1%;
     
     
 }
