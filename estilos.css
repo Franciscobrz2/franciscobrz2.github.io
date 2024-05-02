@@ -1,0 +1,21 @@
+.header{
+    background-color: rgb(252, 65, 65);
+    height: 120px;
+    width: 98%;
+    float: center;
+    color:white;
+    text-align: center;
+    font-family: arial Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 110px;
+    margin: 1%;
+}
+
+.imagen{
+    width: 120px;
+    float:left ;
+    margin: 0px;
+    display: flex;
+    margin-left: 100px;
+}
+
+
